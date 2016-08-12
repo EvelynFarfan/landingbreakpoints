@@ -98,7 +98,7 @@
 	width: 100%;
 }
 
-@media (max-width: 535px){
+@media (max-width: 900px) and (min-width: 200px){
 	.container{
 		width: 90%
 	}
