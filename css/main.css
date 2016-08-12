@@ -73,7 +73,12 @@ footer a{
 }
 /* ------- Version 535px --------- */
 
-@media (max-width: 535px){
+@media (max-width: 900px) and (min-width: 200px){
+	.contenedor{
+		margin-top: 20px;
+	}
+}
+@media (max-width: 535px) and (min-width: 200px){
 	.bloque1{
 		width: 100%;
 		padding: 10% 0 15% 0;
@@ -84,10 +89,25 @@ footer a{
 	img{
 		width: 150px
 	}
+	.total{
+		width: 100%
+	}
 	.contenedor{
 		margin-top: 20px;
 	}
 	footer{
 		padding: 5% 0;
+	}
+}
+@media (max-width: 400px) and (min-width: 200px) {
+	h1 {
+    margin-bottom: 3%;
+    font-size: 30px;
+	}
+	nav{
+		display: none;
+	}
+	.total{
+		width: 100%
 	}
 }
