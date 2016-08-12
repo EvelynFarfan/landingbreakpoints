@@ -1,0 +1,93 @@
+/* Tu CSS va aqui */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'open sans'
+}
+img{
+	width: 200px;
+}
+.text-withe{
+	color: #fff;
+}
+header{
+	padding: 2% 0 2% 0px;
+	height: auto;
+}
+nav{
+	text-align: right;
+	margin: 1% 0 0 0;
+}
+a{
+	color: #000;
+	text-decoration:none;
+	margin: 0 2% 0 0;
+}
+a:hover{
+	color: orange;
+}
+.bloque1{
+	background-color: gray;
+	padding: 4% 0;
+}
+h1{
+	font-size: 50px;
+	margin-bottom: 3%;
+}
+/* formulario*/
+
+.contenedor{
+	background-color: #9A9A9A;
+	border-radius: 10px;
+	padding: 8% 5%;
+}
+.contenedor p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+input{
+  width: 100%;
+  border:1px solid #DADADA;
+  margin-top:10px;
+  padding-left:15px;
+  font-size:14px;
+}
+input{
+  height: 35px;
+}
+.boton{
+	background-color: #3EB0F7;
+	text-align: center;
+	margin-top: 5%;
+	padding: 1% 0
+}
+.boton a{
+	color: #fff;
+}
+footer{
+	padding: 2% 0;
+}
+footer a{
+	color: blue;
+}
+/* ------- Version 535px --------- */
+
+@media (max-width: 535px){
+	.bloque1{
+		width: 100%;
+		padding: 10% 0 15% 0;
+	}
+	nav{
+		margin-top: 3%;
+	}
+	img{
+		width: 150px
+	}
+	.contenedor{
+		margin-top: 20px;
+	}
+	footer{
+		padding: 5% 0;
+	}
+}
